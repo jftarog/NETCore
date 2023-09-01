@@ -14,10 +14,10 @@ namespace SampleWebApiAspNetCore.Services
 
             foodContext.SaveChanges();
             
-            songContext.SongItems.Add(new SongEntity() {Name = "Stellar Stellar", Singer = "Hoshimachi Suisei", Length = 305, Created = DateTime.Now} );
-            songContext.SongItems.Add(new SongEntity() {Name = "GHOST", Singer = "singer2", Length = 20, Created = DateTime.Now} );
-            songContext.SongItems.Add(new SongEntity() {Name = "test3", Singer = "singer3", Length = 30, Created = DateTime.Now} );
-            songContext.SongItems.Add(new SongEntity() {Name = "test4", Singer = "singer4", Length = 40, Created = DateTime.Now} );
+            songContext.SongItems.Add(new SongEntity() {Name = "Stellar Stellar", Singer = "Hoshimachi Suisei", Length = 301, Created = DateTime.Now} );
+            songContext.SongItems.Add(new SongEntity() {Name = "GHOST", Singer = "Hoshimachi Suisei", Length = 282, Created = DateTime.Now} );
+            songContext.SongItems.Add(new SongEntity() {Name = "end of a life", Singer = "Calliope Mori", Length = 180, Created = DateTime.Now} );
+            songContext.SongItems.Add(new SongEntity() {Name = "Cursed Night", Singer = "Calliope Mori", Length = 288, Created = DateTime.Now} );
 
             songContext.SaveChanges();
         }
